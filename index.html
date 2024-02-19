@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="!scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -44,7 +44,7 @@
             Paribahan</span></h1>
         <p class="text-gray-300">Our bus transport system efficiently connects diverse communities, <br> fostering
           inclusivity and sustainable urban mobility.</p>
-        <button class="bg-[#1DD100] text-black py-2 px-3 font-bold rounded-lg">Buy Tickets</button>
+        <button  class="bg-[#1DD100] text-black py-2 px-3 font-bold rounded-lg"><a href="#scrolling">Buy Tickets</a></button>
       </div>
       <div class="lg:translate-y-28 lg:flex lg:gap-6 lg:ml-48">
         <div class="w-60 h-24 bg-white rounded-xl flex gap-2 p-6 justify-center shadow-lg">
@@ -115,7 +115,7 @@
     </div>
 
     <!-- functionality section starts here -->
-    <section class="lg:mt-28 bg-[#F7F8F8]">
+    <section  class="lg:mt-28 bg-[#F7F8F8] ">
       <div class="border border-t-green-400"></div>
       <div class="text-center mt-28 space-y-4">
         <h1 class="text-4xl font-extrabold">P.H Paribahan</h1>
@@ -125,7 +125,7 @@
 
       <!-- Greenline Paribahan -->
 
-      <div class="flex justify-between items-center p-8 bg-[#F7F8F8]">
+      <div id="scrolling" class="flex justify-between items-center p-8 bg-[#F7F8F8]">
         <div>
           <div>
             <div>
@@ -141,7 +141,7 @@
                 </div>
                 <div class="flex gap-3 bg-green-200 w-44 h-14 rounded-lg justify-center items-center py-3">
                   <img class="w-6 h-6" src="images/seat-green.png" alt="">
-                  <p class="text-[#00CC00] text-lg font-medium"><span id="count" class="font-bold text-xl">8</span> Seats left</p>
+                  <p class="text-[#00CC00] text-lg font-medium"><span id="seat-left" class="font-bold text-xl">8</span> Seats left</p>
                 </div>
               </div>
             </div>
@@ -177,7 +177,7 @@
 
     <!-- available seats & per seats price -->
 
-    <section class="flex justify-around mt-7 bg-white">
+    <section  class="flex justify-around mt-7 bg-white">
       <div id="seat-1" class="">
         <div>
           <h1 class="text-2xl font-semibold">Select Your Seat</h1>
@@ -208,7 +208,7 @@
           <h1 class="text-2xl font-semibold">Select Your Seat</h1>
         </div>
         <div class="flex justify-around items-center mt-8 gap-10 font-medium text-base">
-          <p>Seat <span class="text-green-500" id="seat-number">0</span></p>
+          <p>Seat <span class="text-green-500" id="seats-count">0</span></p>
           <p>Class</p>
           <p>Price</p>
         </div>
@@ -223,7 +223,7 @@
           <div>
             <label class="input input-bordered flex items-center gap-2">
               <input type="text" class="grow" placeholder="Have you any coupon?" />
-              <span class="bg-[#1DD100] px-3 py-1 text-white font-medium rounded-lg">Apply</span>
+              <span id="apply-btn" class="bg-[#1DD100] px-3 py-1 text-white font-medium rounded-lg">Apply</span>
             </label>
           </div>
           <div class="flex justify-between items-center">
@@ -251,10 +251,10 @@
             <input type="email" placeholder="Enter your email id" class="input input-bordered w-full max-w-xs" />
           </label>
         </div>
-        <button class="bg-[#1DD100] text-base font-medium text-white w-[300px] h-[50px] rounded-lg">Next</button>
+        <button id="next-btn" class="bg-[#1DD100] text-base font-medium text-white w-[300px] h-[50px] rounded-lg">Next</button>
         <div class="flex justify-between">
           <p class="underline">Cancellation Policy</p>
-          <p class="underline">Terms and conditions</p>
+          <p class="underline">Terms and conditions</p> 
         </div>
       </div>
     </section>
