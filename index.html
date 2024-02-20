@@ -14,7 +14,7 @@
 
     <!-- Navbar -->
 
-    <!-- <div class="navbar bg-base-100">
+    <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div>
           <p class="text-4xl font-extrabold">P-Ticket</p>
@@ -34,17 +34,18 @@
           <img src="images/bus-icon.png" alt="">
         </button>
       </div>
-    </div> -->
+    </div>
 
     <!-- Hero Section -->
 
-     <!-- <div class="w-[100%] h-[550px] bg-[url('images/banner.png')] lg:mt-5 ">
+    <div class="w-[100%] h-[550px] bg-[url('images/banner.png')] lg:mt-5 ">
       <div class="justify-center items-center text-white text-center pt-24 space-y-7">
         <h1 class="text-5xl font-bold leading-normal">End-to-End Travel with <br> <span class="text-[#1DD100]">P
             Paribahan</span></h1>
         <p class="text-gray-300">Our bus transport system efficiently connects diverse communities, <br> fostering
           inclusivity and sustainable urban mobility.</p>
-        <button  class="bg-[#1DD100] text-black py-2 px-3 font-bold rounded-lg"><a href="#scrolling">Buy Tickets</a></button>
+        <button class="bg-[#1DD100] text-black py-2 px-3 font-bold rounded-lg"><a href="#scrolling">Buy
+            Tickets</a></button>
       </div>
       <div class="lg:translate-y-28 lg:flex lg:gap-6 lg:ml-48">
         <div class="w-60 h-24 bg-white rounded-xl flex gap-2 p-6 justify-center shadow-lg">
@@ -70,13 +71,13 @@
         </div>
       </div>
     </div>
-  </header>  -->
+  </header>
 
   <!-- header section ends here -->
 
   <!-- main section starts here -->
 
-  <!-- <main class="lg:w-[1170px] lg:mx-auto">
+  <main class="lg:w-[1170px] lg:mx-auto">
     <h1 class="text-4xl font-bold text-center lg:mt-32">Best offers for you</h1>
     <div class="lg:flex lg:gap-6 lg:mt-12">
       <div class="card w-[573px] h-[220px] bg-[#FFCC00] lg:p-10">
@@ -112,21 +113,22 @@
     <div class="text-center lg:mt-16">
       <button class="text-[#00CC00] border border-[#00CC00] rounded-lg px-4 py-3 font-bold text-xl">See All
         Offers</button>
-    </div> -->
+    </div>
 
     <!-- functionality section starts here -->
 
-    <!-- <section  class="lg:mt-28 bg-[#F7F8F8] ">
+    <section class="lg:mt-28 bg-[#F7F8F8] ">
       <div class="border border-t-green-400"></div>
       <div class="text-center mt-28 space-y-4">
         <h1 class="text-4xl font-extrabold">P.H Paribahan</h1>
         <p class="text-gray-500 text-lg font-normal">
-          Our local bus transport system efficiently serves our community, offering convenient <br> and reliable transportation options for residents and visitors alike.</p>
-      </div> -->
+          Our local bus transport system efficiently serves our community, offering convenient <br> and reliable
+          transportation options for residents and visitors alike.</p>
+      </div>
 
       <!-- Greenline Paribahan -->
 
-       <div id="scrolling" class="flex justify-between items-center p-8 bg-[#F7F8F8]">
+      <div id="scrolling" class="flex justify-between items-center p-8 bg-[#F7F8F8]">
         <div>
           <div>
             <div>
@@ -142,7 +144,8 @@
                 </div>
                 <div class="flex gap-3 bg-green-200 w-44 h-14 rounded-lg justify-center items-center py-3">
                   <img class="w-6 h-6" src="images/seat-green.png" alt="">
-                  <p class="text-[#00CC00] text-lg font-medium"><span id="seat-left" class="font-bold text-xl">8</span> Seats left</p>
+                  <p class="text-[#00CC00] text-lg font-medium"><span id="seat-left" class="font-bold text-xl">8</span>
+                    Seats left</p>
                 </div>
               </div>
             </div>
@@ -174,11 +177,11 @@
           <p><span class="text-3xl font-bold">550 Taka</span><br><span class="text-xl text-gray-500">Per Seat</span></p>
         </div>
       </div>
-    </section> 
+    </section>
 
     <!-- available seats & per seats price -->
 
-    <section  class="flex justify-around mt-7 bg-white">
+    <section class="flex justify-around mt-7 bg-white">
       <div id="seat-1" class="">
         <div>
           <h1 class="text-2xl font-semibold">Select Your Seat</h1>
@@ -193,15 +196,31 @@
             <p class="text-lg font-medium text-green-400">Selected</p>
           </div>
         </div>
-        <div class="grid grid-cols-4 gap-5 mt-16">
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>A1</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>A2</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>A3</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>A4</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>B1</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>B2</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>B3</p></button>
-          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4"><p>B4</p></button>
+        <div id="seat-list" class="grid grid-cols-4 gap-5 mt-16">
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>A1</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>A2</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>A3</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>A4</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>B1</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>B2</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>B3</p>
+          </button>
+          <button class="w-28 h-14 bg-[#F7F8F8] rounded-lg text-center py-4 seat-name">
+            <p>B4</p>
+          </button>
         </div>
       </div>
       <div class="seat-2 space-y-3">
@@ -252,10 +271,11 @@
             <input type="email" placeholder="Enter your email id" class="input input-bordered w-full max-w-xs" />
           </label>
         </div>
-        <button id="next-btn" class="bg-[#1DD100] text-base font-medium text-white w-[300px] h-[50px] rounded-lg">Next</button>
+        <button id="next-btn"
+          class="bg-[#1DD100] text-base font-medium text-white w-[300px] h-[50px] rounded-lg">Next</button>
         <div class="flex justify-between">
           <p class="underline">Cancellation Policy</p>
-          <p class="underline">Terms and conditions</p> 
+          <p class="underline">Terms and conditions</p>
         </div>
       </div>
     </section>
@@ -263,15 +283,16 @@
     <!-- functionality section ends here -->
 
   </main>
-  
+
   <!-- main section ends here -->
 
   <!-- footer section starts here -->
 
-  <!-- <footer class="footer lg:p-16 bg-[#000000] justify-around lg:mt-28">
+  <footer class="footer lg:p-16 bg-[#000000] justify-around lg:mt-28">
     <div>
       <p class="text-4xl font-extrabold text-white">P-Ticket</p>
-      <p class="text-lg font-normal text-white">P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+      <p class="text-lg font-normal text-white">P-Ticket is a digital platform to make your <br> daily commuting better.
+      </p>
     </div>
     <div>
       <p class="text-white">Download Our App</p>
@@ -283,7 +304,7 @@
         </div>
       </div>
     </div>
-  </footer>  -->
+  </footer>
 
   <!-- footer section ends here -->
   <script src="script.js"></script>
